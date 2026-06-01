@@ -1,0 +1,6 @@
+interface:
+  display_name: "Academic Paper Analyzer & Figure Planner"
+  short_description: "Plan figure needs from academic paper content"
+  default_prompt: "Use $academic-figure-paper-analyzer to analyze this paper draft and plan the figures each section needs."
+policy:
+  allow_implicit_invocation: true

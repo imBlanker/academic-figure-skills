@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.6.2] - 2026-06-01
+
+### Added
+- 🤖 **Codex Support**: Added `agents/openai.yaml` UI metadata to every skill directory so Codex can display default prompts and concise skill descriptions
+
+### Changed
+- 🔧 **SKILL.md Frontmatter**: Converted every skill to Codex-compatible frontmatter using hyphen-case `name`, `description`, and preserved pack metadata under `metadata`
+- 🔢 **Versioning**: Bumped pack version to `2.6.2`
+
+## [2.6.1] - 2026-06-01
+
+### Added
+- 📚 **Documentation**: Added Codex compatibility notes and manual installation commands using `$CODEX_HOME/skills` or `~/.codex/skills`
+
+### Changed
+- 🔢 **Versioning**: Bumped pack version to `2.6.1`
+- 📝 **README/Manifest**: Updated assistant compatibility wording to include Codex alongside Claude Code, Gemini CLI, and Cursor
+
 ## [2.6.0] - 2026-05-11
 
 ### Added

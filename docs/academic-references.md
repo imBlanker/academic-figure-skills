@@ -161,11 +161,11 @@ Viridis 是一个感知均匀（perceptually uniform）的连续色图，确保�
 
 ```bibtex
 @software{academic-figure-skills,
-  author = {Azhi-ss},
+  author = {imBlanker},
   title = {Academic Figure Skills: AI-powered academic figure generation skill pack},
   year = {2026},
-  url = {https://github.com/Azhi-ss/academic-figure-skills},
-  version = {2.3.0}
+  url = {https://github.com/imBlanker/academic-figure-skills},
+  version = {2.6.3}
 }
 ```
 

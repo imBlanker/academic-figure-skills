@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Repo Analyzer"
+  short_description: "Analyze ML repositories for figures"
+  default_prompt: "Use $academic-repo-analyzer to analyze this ML repository for downstream paper figures."

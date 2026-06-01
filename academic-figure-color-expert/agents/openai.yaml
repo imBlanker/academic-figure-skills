@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Color Expert"
+  short_description: "Choose academic figure palettes"
+  default_prompt: "Use $academic-figure-color-expert to recommend an accessible academic palette for my figure."

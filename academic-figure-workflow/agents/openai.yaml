@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Figure Workflow"
+  short_description: "Route academic figure workflows"
+  default_prompt: "Use $academic-figure-workflow to route my paper or repository into an academic figure prompt."

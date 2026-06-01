@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Paper Analyzer"
+  short_description: "Plan figures from paper content"
+  default_prompt: "Use $academic-figure-paper-analyzer to plan figures for this paper section."

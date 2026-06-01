@@ -1,10 +1,7 @@
 ---
-id: academic-figure-paper-analyzer
-name: Academic Paper Analyzer & Figure Planner
-version: 1.0.0
-description: Use this skill whenever the user wants to analyze an academic paper, identify figure-worthy content, plan which figures to generate, suggest figure types and count per section, or says "分析论文配图需求", "论文需要哪些图", "论文配图规划", "paper figure planning", "analyze paper for figures", or "which figures does my paper need".
-stages: [research, review]
-tools: [bash]
+name: academic-figure-paper-analyzer
+description: >-
+  Use this skill whenever the user wants to analyze an academic paper, identify figure-worthy content, plan which figures to generate, suggest figure types and count per section, or says "分析论文配图需求", "论文需要哪些图", "论文配图规划", "paper figure planning", "analyze paper for figures", or "which figures does my paper need".
 ---
 
 # Academic Paper Analyzer & Figure Planner — 学术论文配图规划师

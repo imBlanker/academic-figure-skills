@@ -1,0 +1,4 @@
+interface:
+  display_name: "Modern ML Figure Prompt"
+  short_description: "Write airy pastel ML prompts"
+  default_prompt: "Use $academic-figure-prompt-pastel to write a modern pastel ML paper figure prompt."

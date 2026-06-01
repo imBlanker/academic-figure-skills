@@ -1,4 +1,6 @@
 interface:
   display_name: "Academic Repo Analyzer"
-  short_description: "Analyze ML repositories for figures"
-  default_prompt: "Use $academic-repo-analyzer to analyze this ML repository for downstream paper figures."
+  short_description: "Analyze ML repositories for figure planning"
+  default_prompt: "Use $academic-repo-analyzer to analyze this ML repository and produce a quick understanding document."
+policy:
+  allow_implicit_invocation: true

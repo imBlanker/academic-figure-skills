@@ -1,4 +1,6 @@
 interface:
-  display_name: "Architecture Extractor"
-  short_description: "Extract architecture figures from PDFs"
-  default_prompt: "Use $academic-figure-architecture-extractor to extract and analyze architecture diagrams from this PDF."
+  display_name: "Academic Figure Architecture Extractor & Analyzer"
+  short_description: "Extract and analyze paper architecture diagrams"
+  default_prompt: "Use $academic-figure-architecture-extractor to extract architecture diagrams from this PDF and summarize reusable redraw parameters."
+policy:
+  allow_implicit_invocation: true

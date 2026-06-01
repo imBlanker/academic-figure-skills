@@ -9,14 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - 🔗 **Repository**: Updated package, clone, manifest, citation, and license owner references to `imBlanker/academic-figure-skills`
+- 🔢 **Versioning**: Bumped pack version to `2.6.3`
 
 ## [2.6.2] - 2026-06-01
 
 ### Added
-- 🤖 **Codex**: Added `agents/openai.yaml` UI metadata and default prompts for every skill directory
+- 🤖 **Codex Support**: Added `agents/openai.yaml` UI metadata to every skill directory so Codex can display default prompts and concise skill descriptions
 
 ### Changed
-- 🔧 **Codex**: Converted every `SKILL.md` frontmatter to Codex-valid `name` + `description` metadata with hyphen-case names matching directory names
+- 🔧 **SKILL.md Frontmatter**: Converted every skill to Codex-compatible frontmatter using hyphen-case `name`, `description`, and preserved pack metadata under `metadata`
 - 🔢 **Versioning**: Bumped pack version to `2.6.2`
 
 ## [2.6.1] - 2026-06-01

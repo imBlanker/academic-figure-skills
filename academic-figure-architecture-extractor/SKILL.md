@@ -1,7 +1,15 @@
 ---
 name: academic-figure-architecture-extractor
-description: >-
-  Use this skill whenever the user wants to extract architecture diagrams from academic papers, filter out invalid images, analyze the structure and components of diagrams, automatically match suitable color schemes, or says "提取论文架构图", "架构图分析", "从PDF中提取图表", "自动分析架构图", "architecture diagram extraction", "extract figures from pdf", "analyze architecture diagram".
+description: "Use this skill whenever the user wants to extract architecture diagrams from academic papers, filter out invalid images, analyze the structure and components of diagrams, automatically match suitable color schemes, or says \"提取论文架构图\", \"架构图分析\", \"从PDF中提取图表\", \"自动分析架构图\", \"architecture diagram extraction\", \"extract figures from pdf\", \"analyze architecture diagram\"."
+metadata:
+  display_name: "Academic Figure Architecture Extractor & Analyzer"
+  version: "1.0.0"
+  stages:
+    - "research"
+    - "writing"
+  tools:
+    - "bash"
+    - "python"
 ---
 
 # Academic Figure Architecture Extractor & Analyzer — 学术论文架构图自动提取与分析

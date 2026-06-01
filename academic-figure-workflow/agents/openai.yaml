@@ -1,4 +1,6 @@
 interface:
-  display_name: "Academic Figure Workflow"
-  short_description: "Route academic figure workflows"
-  default_prompt: "Use $academic-figure-workflow to route my paper or repository into an academic figure prompt."
+  display_name: "Academic Figure Workflow Orchestrator"
+  short_description: "Route end-to-end academic figure workflows"
+  default_prompt: "Use $academic-figure-workflow to route my repo or paper into the right academic figure planning workflow."
+policy:
+  allow_implicit_invocation: true

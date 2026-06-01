@@ -108,19 +108,13 @@ cp -r academic-figure-skills/academic-* "${CODEX_HOME:-$HOME/.codex}/skills/"
 
 ### Codex 使用说明
 
-Codex 会从 skills 目录读取每个子目录下的 `SKILL.md`。本项目已按 Codex skill 发现规则完成兼容：
-
-- 每个 skill 目录名与 `SKILL.md` frontmatter 中的 `name` 保持一致，例如 `academic-figure-workflow`。
-- 每个 `SKILL.md` 只保留 Codex 可校验的 `name` 与 `description` frontmatter。
-- 每个 skill 都包含 `agents/openai.yaml`，用于 Codex 的技能列表、默认提示词与 UI 展示。
-
-手动安装后，可以在 Codex 对话中直接使用触发词，例如：
+Codex 会从 skills 目录读取每个子目录下的 `SKILL.md`。本仓库的每个 skill 目录都已补充 Codex 兼容的 `SKILL.md` frontmatter 和 `agents/openai.yaml` UI 元数据，因此安装后可被 Codex 发现、展示并按描述触发。手动安装后，可以在 Codex 对话中直接使用触发词，例如：
 
 - `帮我从仓库到配图走一遍`
 - `分析代码仓库`
 - `生成论文配图提示词`
 
-如果你在 Codex 环境中设置了 `CODEX_HOME`，请优先安装到 `$CODEX_HOME/skills`；没有设置时可使用 `~/.codex/skills`。注意：Codex 发现的是每个独立 skill 子目录，本仓库根目录是技能包清单，不应作为单个 Codex skill 安装。
+如果你在 Codex 环境中设置了 `CODEX_HOME`，请优先安装到 `$CODEX_HOME/skills`；没有设置时可使用 `~/.codex/skills`。
 
 ## 使用示例
 
@@ -190,7 +184,7 @@ A: 可以用"图生图"功能，在已有图的基础上用文字指令修改。
 A: 如果你没指定配色，系统会先按“用户指定 → 场景推荐 → 默认安全方案”决策：能识别投稿 venue、学科或图类型时，优先推荐更合适的方案；如果信息不足，则会明确说明先用默认 `Okabe-Ito` 继续，后续也可以随时切换。
 
 ### Q: 支持哪些 AI 编程助手？
-A: 支持 Claude Code、Gemini CLI、Cursor、Codex 等能读取本仓库 `SKILL.md` 目录结构的 AI 编程助手。Codex 用户可安装到 `$CODEX_HOME/skills` 或 `~/.codex/skills`；每个 skill 目录还包含 Codex 可读取的 `agents/openai.yaml`。
+A: 支持 Claude Code、Gemini CLI、Cursor、Codex 等能读取本仓库 `SKILL.md` 目录结构的 AI 编程助手。Codex 用户可安装到 `$CODEX_HOME/skills` 或 `~/.codex/skills`；每个 skill 目录也包含 Codex 推荐的 `agents/openai.yaml` 元数据。
 
 ### Q: 可以只使用其中一个技能吗？
 A: 当然可以！每个技能都是独立的，你可以只使用 figure-prompt 直接生成提示词。

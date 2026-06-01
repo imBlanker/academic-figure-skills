@@ -1,7 +1,14 @@
 ---
 name: academic-repo-analyzer
-description: >-
-  Use this skill whenever the user wants to analyze a deep learning or machine learning code repository, understand what it does, identify its architecture and tech stack, generate a quick understanding document for downstream figure planning, or says "分析代码仓库", "仓库分析", "repo analyzer", "analyze this repo", "理解这个代码库", "what does this repo do", or "code repository analysis".
+description: "Use this skill whenever the user wants to analyze a deep learning or machine learning code repository, understand what it does, identify its architecture and tech stack, generate a quick understanding document for downstream figure planning, or says \"分析代码仓库\", \"仓库分析\", \"repo analyzer\", \"analyze this repo\", \"理解这个代码库\", \"what does this repo do\", or \"code repository analysis\"."
+metadata:
+  display_name: "Academic Repo Analyzer"
+  version: "1.0.0"
+  stages:
+    - "research"
+    - "review"
+  tools:
+    - "bash"
 ---
 
 # Academic Repo Analyzer — 学术代码仓库分析器

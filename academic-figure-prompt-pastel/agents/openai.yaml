@@ -1,4 +1,6 @@
 interface:
-  display_name: "Modern ML Figure Prompt"
-  short_description: "Write airy pastel ML prompts"
-  default_prompt: "Use $academic-figure-prompt-pastel to write a modern pastel ML paper figure prompt."
+  display_name: "Academic Figure Prompt — Modern ML Airy Style"
+  short_description: "Draft modern pastel ML figure prompts"
+  default_prompt: "Use $academic-figure-prompt-pastel to create a modern airy pastel ML paper figure prompt for this method."
+policy:
+  allow_implicit_invocation: true

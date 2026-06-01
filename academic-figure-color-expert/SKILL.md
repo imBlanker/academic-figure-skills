@@ -1,7 +1,14 @@
 ---
 name: academic-figure-color-expert
-description: >-
-  Use this skill whenever the user wants help choosing an academic figure color palette, needs venue-specific or colorblind-safe design advice, wants a paper color scheme recommendation, wants to match a color scheme for extracted architecture diagrams, or says "学术配图配色", "论文配色方案", "色盲友好配色", "学术配色", "架构图配色", "academic color palette", "colorblind safe figure", "paper color scheme", "architecture diagram color matching", "Nature Blue", "单色系". Now 13 preset schemes including the new Nature Blue monochrome, plus monochrome-vs-polychrome philosophy.
+description: "Use this skill whenever the user wants help choosing an academic figure color palette, needs venue-specific or colorblind-safe design advice, wants a paper color scheme recommendation, wants to match a color scheme for extracted architecture diagrams, or says \"学术配图配色\", \"论文配色方案\", \"色盲友好配色\", \"学术配色\", \"架构图配色\", \"academic color palette\", \"colorblind safe figure\", \"paper color scheme\", \"architecture diagram color matching\", \"Nature Blue\", \"单色系\". Now 13 preset schemes including the new Nature Blue monochrome, plus monochrome-vs-polychrome philosophy."
+metadata:
+  display_name: "Academic Figure Color Expert"
+  version: "1.2.0"
+  stages:
+    - "writing"
+    - "research"
+  tools:
+    - "bash"
 ---
 
 # Academic Figure Color Expert — 学术配图配色专家

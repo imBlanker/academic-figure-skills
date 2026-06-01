@@ -1,15 +1,16 @@
 # Academic Figure Skills
 
-![Version](https://img.shields.io/badge/version-2.5.0-blue)
+![Version](https://img.shields.io/badge/version-2.6.2-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-AI 驱动的学术论文配图技能包，适用于 Claude Code / Gemini CLI / Cursor 等 AI 编程助手。从代码仓库分析到论文配图规划，再到高质量提示词生成。
+AI 驱动的学术论文配图技能包，适用于 Claude Code / Gemini CLI / Cursor / Codex 等 AI 编程助手。从代码仓库分析到论文配图规划，再到高质量提示词生成。
 
 ## 快速开始（30 秒上手）
 
 1. **安装**：`npx skills add Azhi-ss/academic-figure-skills`
-2. **分析仓库**："帮我分析这个 ML 代码仓库"
-3. **生成配图**："用 Okabe-Ito 配色，生成总体框架图提示词"
+2. **在 AI 编程助手中启用**：Claude Code / Gemini CLI / Cursor / Codex 都可以读取这些 `SKILL.md`
+3. **分析仓库**："帮我分析这个 ML 代码仓库"
+4. **生成配图**："用 Okabe-Ito 配色，生成总体框架图提示词"
 
 ## 示例配图
 
@@ -97,7 +98,23 @@ cp -r academic-figure-skills/* ~/.claude/skills/
 
 # Gemini CLI
 cp -r academic-figure-skills/* ~/.gemini/skills/
+
+# Codex
+# If CODEX_HOME is set, install under $CODEX_HOME/skills; otherwise use ~/.codex/skills.
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cp -r academic-figure-skills/academic-* "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
+
+
+### Codex 使用说明
+
+Codex 会从 skills 目录读取每个子目录下的 `SKILL.md`。本仓库的每个 skill 目录都已补充 Codex 兼容的 `SKILL.md` frontmatter 和 `agents/openai.yaml` UI 元数据，因此安装后可被 Codex 发现、展示并按描述触发。手动安装后，可以在 Codex 对话中直接使用触发词，例如：
+
+- `帮我从仓库到配图走一遍`
+- `分析代码仓库`
+- `生成论文配图提示词`
+
+如果你在 Codex 环境中设置了 `CODEX_HOME`，请优先安装到 `$CODEX_HOME/skills`；没有设置时可使用 `~/.codex/skills`。
 
 ## 使用示例
 
@@ -165,6 +182,9 @@ A: 可以用"图生图"功能，在已有图的基础上用文字指令修改。
 
 ### Q: figure-prompt 要求先选配色，我不确定选哪个怎么办？
 A: 如果你没指定配色，系统会先按“用户指定 → 场景推荐 → 默认安全方案”决策：能识别投稿 venue、学科或图类型时，优先推荐更合适的方案；如果信息不足，则会明确说明先用默认 `Okabe-Ito` 继续，后续也可以随时切换。
+
+### Q: 支持哪些 AI 编程助手？
+A: 支持 Claude Code、Gemini CLI、Cursor、Codex 等能读取本仓库 `SKILL.md` 目录结构的 AI 编程助手。Codex 用户可安装到 `$CODEX_HOME/skills` 或 `~/.codex/skills`；每个 skill 目录也包含 Codex 推荐的 `agents/openai.yaml` 元数据。
 
 ### Q: 可以只使用其中一个技能吗？
 A: 当然可以！每个技能都是独立的，你可以只使用 figure-prompt 直接生成提示词。

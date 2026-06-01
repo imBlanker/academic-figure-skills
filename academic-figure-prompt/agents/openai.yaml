@@ -1,0 +1,6 @@
+interface:
+  display_name: "Academic Figure Prompt"
+  short_description: "Draft publication-quality academic figure prompts"
+  default_prompt: "Use $academic-figure-prompt to create a publication-quality English prompt for this academic figure."
+policy:
+  allow_implicit_invocation: true

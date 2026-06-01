@@ -1,10 +1,15 @@
 ---
-id: academic-figure-workflow
-name: Academic Figure Workflow Orchestrator
-version: 1.0.0
-description: Use this skill whenever the user wants an end-to-end academic figure workflow, wants to go from a repository or paper to a figure prompt, is unsure which academic-figure skill to start with, or says "帮我从仓库到配图走一遍", "完整论文配图工作流", "academic figure workflow", "end-to-end figure pipeline", "from paper to figure prompt", or "which skill should I use first".
-stages: [research, writing, review]
-tools: [bash]
+name: academic-figure-workflow
+description: "Use this skill whenever the user wants an end-to-end academic figure workflow, wants to go from a repository or paper to a figure prompt, is unsure which academic-figure skill to start with, or says \"帮我从仓库到配图走一遍\", \"完整论文配图工作流\", \"academic figure workflow\", \"end-to-end figure pipeline\", \"from paper to figure prompt\", or \"which skill should I use first\"."
+metadata:
+  display_name: "Academic Figure Workflow Orchestrator"
+  version: "1.0.0"
+  stages:
+    - "research"
+    - "writing"
+    - "review"
+  tools:
+    - "bash"
 ---
 
 # Academic Figure Workflow Orchestrator

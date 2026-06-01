@@ -1,10 +1,15 @@
 ---
-id: academic-figure-prompt
-name: Academic Figure Prompt
-version: 1.2.0
-description: Use this skill whenever the user wants detailed English prompts for AI image tools to produce top-conference-quality academic figures, needs prompts for framework diagrams, architecture diagrams, pipeline flowcharts, module detail diagrams, comparison figures, or data-pattern grids. Now also supports JSON structured figure specs for precise layout/text control. Trigger: "论文配图提示词", "生成论文配图", "学术论文生图", "架构图提示词", "框架图提示词", "顶会风格配图", "CVPR 风格图", "NeurIPS 风格图", "paper figure prompt", "academic diagram prompt", "fig JSON spec".
-stages: [writing, research, review]
-tools: [bash]
+name: academic-figure-prompt
+description: "Use this skill whenever the user wants detailed English prompts for AI image tools to produce top-conference-quality academic figures, needs prompts for framework diagrams, architecture diagrams, pipeline flowcharts, module detail diagrams, comparison figures, or data-pattern grids. Now also supports JSON structured figure specs for precise layout/text control. Trigger: \"论文配图提示词\", \"生成论文配图\", \"学术论文生图\", \"架构图提示词\", \"框架图提示词\", \"顶会风格配图\", \"CVPR 风格图\", \"NeurIPS 风格图\", \"paper figure prompt\", \"academic diagram prompt\", \"fig JSON spec\"."
+metadata:
+  display_name: "Academic Figure Prompt"
+  version: "1.2.0"
+  stages:
+    - "writing"
+    - "research"
+    - "review"
+  tools:
+    - "bash"
 ---
 
 # Academic Figure Prompt — 学术论文配图提示词生成器

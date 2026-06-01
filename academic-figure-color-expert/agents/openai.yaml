@@ -1,0 +1,6 @@
+interface:
+  display_name: "Academic Figure Color Expert"
+  short_description: "Choose accessible palettes for academic figures"
+  default_prompt: "Use $academic-figure-color-expert to recommend a venue-appropriate, colorblind-safe palette for my academic figure."
+policy:
+  allow_implicit_invocation: true

@@ -1,10 +1,15 @@
 ---
-id: academic-figure-prompt-pastel
-name: Academic Figure Prompt — Modern ML Airy Style
-version: 4.0.0
-description: Use this skill whenever the user wants modern ML or RL paper-style figure prompts matching recent ICLR, NeurIPS, or ICML 2024-2025 aesthetics, needs a soft pastel academic diagram style, or says "pastel风格论文配图", "现代ML论文配图", "modern ML figure prompt", "pastel academic figure", "ICLR 2024 风格图", or "NeurIPS 2025 风格图".
-stages: [writing, research, review]
-tools: [bash]
+name: academic-figure-prompt-pastel
+description: "Use this skill whenever the user wants modern ML or RL paper-style figure prompts matching recent ICLR, NeurIPS, or ICML 2024-2025 aesthetics, needs a soft pastel academic diagram style, or says \"pastel风格论文配图\", \"现代ML论文配图\", \"modern ML figure prompt\", \"pastel academic figure\", \"ICLR 2024 风格图\", or \"NeurIPS 2025 风格图\"."
+metadata:
+  display_name: "Academic Figure Prompt — Modern ML Airy Style"
+  version: "4.0.0"
+  stages:
+    - "writing"
+    - "research"
+    - "review"
+  tools:
+    - "bash"
 ---
 
 # Academic Figure Prompt — Modern ML Airy Style v4

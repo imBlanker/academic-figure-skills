@@ -1,13 +1,13 @@
 # Academic Figure Skills
 
-![Version](https://img.shields.io/badge/version-2.6.2-blue)
+![Version](https://img.shields.io/badge/version-2.6.3-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 AI 驱动的学术论文配图技能包，适用于 Claude Code / Gemini CLI / Cursor / Codex 等 AI 编程助手。从代码仓库分析到论文配图规划，再到高质量提示词生成。
 
 ## 快速开始（30 秒上手）
 
-1. **安装**：`npx skills add Azhi-ss/academic-figure-skills`
+1. **安装**：`npx skills add imBlanker/academic-figure-skills`
 2. **在 AI 编程助手中启用**：Claude Code / Gemini CLI / Cursor / Codex 都可以读取这些 `SKILL.md`
 3. **分析仓库**："帮我分析这个 ML 代码仓库"
 4. **生成配图**："用 Okabe-Ito 配色，生成总体框架图提示词"
@@ -85,13 +85,13 @@ AI 驱动的学术论文配图技能包，适用于 Claude Code / Gemini CLI / C
 ### 方式 1：npx skills（推荐）
 
 ```bash
-npx skills add Azhi-ss/academic-figure-skills
+npx skills add imBlanker/academic-figure-skills
 ```
 
 ### 方式 2：手动安装
 
 ```bash
-git clone https://github.com/Azhi-ss/academic-figure-skills.git
+git clone https://github.com/imBlanker/academic-figure-skills.git
 
 # Claude Code
 cp -r academic-figure-skills/* ~/.claude/skills/

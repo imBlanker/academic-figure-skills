@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.6.3] - 2026-06-01
+
+### Changed
+- 🔗 **Repository**: Updated package, clone, manifest, citation, and license owner references to `imBlanker/academic-figure-skills`
+- 🔢 **Versioning**: Bumped pack version to `2.6.3`
+
 ## [2.6.2] - 2026-06-01
 
 ### Added
@@ -82,7 +88,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `04-end-to-end-workflow.md` - Complete conversation workflow
 
 ### Fixed
-- 🔧 **Consistency**: Unified copyright holder in LICENSE (Azhi-ss)
+- 🔧 **Consistency**: Unified copyright holder in LICENSE (imBlanker)
 - 🔧 **Consistency**: Fixed academic-figure-prompt version in manifest.json (1.0.0 → 1.1.0)
 - 🔧 **Documentation**: Updated manifest.json description to reflect 9 palettes
 
